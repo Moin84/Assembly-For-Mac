@@ -6,7 +6,11 @@ then install nasm using this command-
 brew install nasm
 
 
+
+
+
 now write your assembly code and if file name is file-name.asm, use these terminal commands to run-
+
 
 nasm -f macho64 -o file-name.o file-name.asm
 
